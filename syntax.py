@@ -3,7 +3,7 @@
 name = "Gustavo"
 age = 16
 print(name, age)
-print("my name is " + name + " and I am " + str(age) + " years old")
+print("my name is " + name + " and I am " + str(age) + " years old") # it is not possible to concatenate a string with an integer
 
 # get the data type of a variable
 print(type(name))
@@ -58,3 +58,34 @@ print(str.strip()) # remove whitespace
 
 str = "Hello, World"
 print(str.replace("Hello", "Goodbye")) # replace string
+
+# if statement
+a = 10;
+b = 8;
+if a > b:
+    print("{} greater than {}".format(a, b));
+elif a == b:
+    print("{} equals {}".format(a, b))
+else:
+    print("{} greater than {}".format(b, a))
+
+# while loop
+i = 1
+while i < 5:
+    print(i)
+    i += 1
+
+# for loop
+for x in range(5):
+    print(x)
+
+for x in range(3, 8):
+    print(x)
+
+for x in range(5, 20, 4):
+    print(x)
+
+# iterating over a list
+fruits = ["apple", "banana", "grapes"]
+for fruit in fruits:
+    print(fruit)
