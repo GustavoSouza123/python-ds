@@ -63,7 +63,7 @@ print(str.replace("Hello", "Goodbye")) # replace string
 a = 10;
 b = 8;
 if a > b:
-    print("{} greater than {}".format(a, b));
+    print("{} greater than {}".format(a, b))
 elif a == b:
     print("{} equals {}".format(a, b))
 else:
