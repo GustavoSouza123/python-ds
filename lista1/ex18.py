@@ -1,0 +1,5 @@
+tamanho_arquivo = int(input("Entre com o tmaanho do arquivo para download (em MB): "))
+velocidade_internet = int(input("Entre com a velocidade da internet (em Mbps): "))
+tempo_download_min = int((tamanho_arquivo / velocidade_internet) / 60)
+tempo_download_seg = int(((tamanho_arquivo / velocidade_internet) / 60 - tempo_download_min) * 60)
+print(f"Tempo aproximado de download do arquivo de {tamanho_arquivo} MB usando uma internet de {velocidade_internet} Mbps: {tempo_download_min}.{tempo_download_seg} min")
