@@ -60,8 +60,8 @@ str = "Hello, World"
 print(str.replace("Hello", "Goodbye")) # replace string
 
 # if statement
-a = 10;
-b = 8;
+a = 10
+b = 8
 if a > b:
     print("{} greater than {}".format(a, b))
 elif a == b:
