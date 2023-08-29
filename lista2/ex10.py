@@ -1,10 +1,10 @@
 turno = str(input("Entre em que turno você estuda (M - matutino, V - Vespertino ou N - Noturno): ")).upper()
 
-if(turno == "M"):
+if turno == "M":
     print("Bom dia!")
-elif(turno == "V"):
+elif turno == "V":
     print("Boa tarde!")
-elif(turno == "N"):
+elif turno == "N":
     print("Boa noite!")
 else:
     print("Valor inválido!")

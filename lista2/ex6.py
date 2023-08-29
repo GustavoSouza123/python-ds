@@ -2,9 +2,9 @@ n1 = int(input("Entre com o primeiro número: "))
 n2 = int(input("Entre com o segunda número: "))
 n3 = int(input("Entre com o terceira número: "))
 
-if(n1 > n2 and n1 > n3):
+if n1 > n2 and n1 > n3:
     print(n1)
-elif(n2 > n1 and n2 > n3):
+elif n2 > n1 and n2 > n3:
     print(n2)
 else:
     print(n3)
